@@ -112,7 +112,7 @@
                   <span class="glyphicon glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
                   <font color="red">
                   <strong>
-                      +7 (495) 417-44-95
+                      +7(495) 223 8-9-10
                   </strong>
                   </font>
                   </p></h3>

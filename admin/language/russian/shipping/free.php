@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = 'Бесплатная доставка';
+$_['heading_title']    = 'Доставка по России по тарифам edostavka.ru';
 
 // Text
 $_['text_shipping']    = 'Доставка';
