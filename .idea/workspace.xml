@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208a6a95-4bfc-49cb-a79a-6b181b4c93dc" name="Default" comment="откат изменений в файле guest.tpl">
+    <list default="true" id="208a6a95-4bfc-49cb-a79a-6b181b4c93dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apteka_2.0.iws" />
@@ -293,7 +293,7 @@
       <updated>1464615546025</updated>
       <workItem from="1464615551145" duration="11504000" />
       <workItem from="1464690172682" duration="1893000" />
-      <workItem from="1464695164765" duration="75000" />
+      <workItem from="1464695164765" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Доработаны виды доставки&#10;Начата работа по изменению процесса &quot;оформления заказа&quot;">
       <created>1464615998140</created>
@@ -316,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464691971525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rebase">
+      <created>1464695264013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1464695264013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13472000" />
+    <option name="totallyTimeSpent" value="14129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="43" width="1210" height="737" extended-state="0" />
@@ -361,7 +368,8 @@
     <MESSAGE value="Доработаны виды доставки&#10;Начата работа по изменению процесса &quot;оформления заказа&quot;" />
     <MESSAGE value="Внесены изменения в процесс &quot;Оформление заказа&quot; без регистрации для шага 2: скрыты лишние поля" />
     <MESSAGE value="откат изменений в файле guest.tpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="откат изменений в файле guest.tpl" />
+    <MESSAGE value="rebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
