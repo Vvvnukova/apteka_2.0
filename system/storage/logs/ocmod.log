@@ -1,0 +1,100 @@
+2016-06-16 18:04:39 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: Simple Custom Data Admin
+FILE: admin/controller/sale/order.php
+CODE: $store_info = $this->model_setting_setting->getSetting('config', $order_info['store_id']);
+LINE: 1584
+LINE: 1830
+CODE: $shipping_address = str_replace(
+LINE: 1687
+LINE: 1916
+CODE: $payment_address = str_replace
+LINE: 1653
+CODE: $customer_group_info = $this->model_customer_customer_group->getCustomerGroup
+LINE: 878
+CODE: $data['shipping_address'] = str_replace(
+LINE: 977
+CODE: $data['payment_address'] = str_replace(
+LINE: 942
+CODE: $data['ip'] = $order_info['ip'];
+LINE: 1301
+FILE: admin/view/template/customer/customer_form.tpl
+CODE: id="tab-customer"
+LINE: 64
+CODE: <input type="hidden" name="address[<?php echo $address_row; ?>][address_id]" value="<?php echo $address['address_id']; ?>" />
+LINE: 364
+FILE: admin/view/template/sale/order_info.tpl
+CODE: id="tab-order"
+NOT FOUND!
+CODE: id="tab-payment"
+NOT FOUND!
+CODE: id="tab-shipping"
+NOT FOUND!
+FILE: admin/view/template/sale/order_form.tpl
+CODE: id="tab-customer"
+LINE: 36
+CODE: id="tab-payment"
+LINE: 417
+CODE: id="tab-shipping"
+LINE: 636
+----------------------------------------------------------------
+MOD: Simple Custom Data Catalog
+FILE: catalog/model/checkout/order.php
+CODE: if (!$order_info['order_status_id'] && $order_status_id) {
+LINE: 388
+CODE: $data['title'] = sprintf($language->get('text_new_
+LINE: 426
+CODE: data['payment_address']
+LINE: 526
+CODE: data['shipping_address']
+LINE: 577
+FILE: catalog/controller/account/address.php
+CODE: $find = array(
+LINE: 225
+CODE: data['addresses'][] = array(
+LINE: 264
+FILE: catalog/controller/account/order.php
+CODE: data['payment_address']
+LINE: 262
+CODE: data['shipping_address']
+LINE: 319
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 209
+LINE: 227
+CODE: (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+LINE: 177
+LINE: 194
+LINE: 212
+LINE: 230
+CODE: <?php echo $footer; ?>
+LINE: 861
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 347
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 377
+CODE: $product_option_value_data[] = array(
+LINE: 394
+----------------------------------------------------------------

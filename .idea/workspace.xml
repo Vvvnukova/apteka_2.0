@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="208a6a95-4bfc-49cb-a79a-6b181b4c93dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.status.1464708115" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1464708092" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1464708083" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.simple_payment_methods.1464708502" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.simple_shipping_methods.1464708502" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1464705189" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.0.1464708501" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.176.1464708115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.status.1464795104" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1464795084" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.information.1.1464795190" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1464795084" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.1.1464796279" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.simple_payment_methods.1464795190" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.simple_shipping_methods.1464795190" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1464796348" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.176.1464795104" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/url.php" afterPath="$PROJECT_DIR$/system/library/url.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/checked.cache" afterPath="$PROJECT_DIR$/vqmod/checked.cache" />
     </list>
@@ -61,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/account.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="374" selection-start-line="8" selection-start-column="374" selection-end-line="8" selection-end-column="374" />
+              <caret line="8" column="373" selection-start-line="8" selection-start-column="373" selection-end-line="8" selection-end-column="373" />
               <folding />
             </state>
           </provider>
@@ -354,7 +352,7 @@
       <workItem from="1464615551145" duration="11504000" />
       <workItem from="1464690172682" duration="1893000" />
       <workItem from="1464695164765" duration="732000" />
-      <workItem from="1464791832343" duration="1206000" />
+      <workItem from="1464791832343" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="Доработаны виды доставки&#10;Начата работа по изменению процесса &quot;оформления заказа&quot;">
       <created>1464615998140</created>
@@ -388,11 +386,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15335000" />
+    <option name="totallyTimeSpent" value="15800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="43" width="1210" height="737" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1694215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -692,7 +690,7 @@
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/account.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="374" selection-start-line="8" selection-start-column="374" selection-end-line="8" selection-end-column="374" />
+          <caret line="8" column="373" selection-start-line="8" selection-start-column="373" selection-end-line="8" selection-end-column="373" />
           <folding />
         </state>
       </provider>
