@@ -43,7 +43,16 @@
             <?php } ?>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+            <div class="tab-pane active" id="tab-description">
+                 <div class="row">
+                    <?php echo $description; ?>
+                  </div>
+
+                  <div class="row">
+              <a href="#">тестик</a>
+                    </div>
+               
+            </div>
             <?php if ($attribute_groups) { ?>
             <div class="tab-pane" id="tab-specification">
               <table class="table table-bordered">

@@ -15,13 +15,14 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
-      <h3><?php echo $text_location; ?></h3>
+      <!--<h3><?php echo $text_location; ?></h3> -->
       <div class="panel panel-default">
         <div class="panel-body">
           <div class="row">
             <?php if ($image) { ?>
             <div class="col-sm-3"><img src="<?php echo $image; ?>" alt="<?php echo $store; ?>" title="<?php echo $store; ?>" class="img-thumbnail" /></div>
             <?php } ?>
+            <!--
             <div class="col-sm-3"><strong><?php echo $store; ?></strong><br />
               <address>
               <?php echo $address; ?>
@@ -30,13 +31,14 @@
               <a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=<?php echo $geocode_hl; ?>&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
               <?php } ?>
             </div>
+            -->
             <div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
-              <?php echo $telephone; ?><br />
-              <br />
-              <?php if ($fax) { ?>
-              <strong><?php echo $text_fax; ?></strong><br>
-              <?php echo $fax; ?>
-              <?php } ?>
+               <?php echo $telephone; ?><br>
+              
+               <?php if ($fax) { ?>
+                 <!-- <strong><?php echo $text_fax; ?></strong><br> -->
+                   <?php echo $fax; ?>
+                    <?php } ?> 
             </div>
             <div class="col-sm-3">
               <?php if ($open) { ?>
@@ -52,6 +54,7 @@
           </div>
         </div>
       </div>
+      <!--
       <?php if ($locations) { ?>
       <h3><?php echo $text_store; ?></h3>
       <div class="panel-group" id="accordion">
@@ -98,8 +101,10 @@
           </div>
         </div>
         <?php } ?>
+
       </div>
       <?php } ?>
+      -->
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
         <fieldset>
           <legend><?php echo $text_contact; ?></legend>
